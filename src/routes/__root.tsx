@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Instituto FOCUS promove educação, capacitação profissional e inclusão social, transformando vidas e fortalecendo comunidades com projetos de alto impacto.",
       },
       { name: "author", content: "Instituto FOCUS" },
-      { property: "og:title", content: "Instituto FOCUS — Transformação Social" },
+      { property: "og:title", content: "Instituto FOCUS — Educação, Inclusão e Transformação Social" },
       {
         property: "og:description",
         content:
@@ -88,6 +88,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Instituto FOCUS" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Instituto FOCUS — Educação, Inclusão e Transformação Social" },
+      { name: "description", content: "A modern, elegant, and responsive institutional website for your institute, showcasing credibility and social impact." },
+      { property: "og:description", content: "A modern, elegant, and responsive institutional website for your institute, showcasing credibility and social impact." },
+      { name: "twitter:description", content: "A modern, elegant, and responsive institutional website for your institute, showcasing credibility and social impact." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/234a3313-4bd6-4898-9221-d02848d298e9/id-preview-bd957998--37d71efa-bb81-47f7-83b7-544a1a421493.lovable.app-1779992962914.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/234a3313-4bd6-4898-9221-d02848d298e9/id-preview-bd957998--37d71efa-bb81-47f7-83b7-544a1a421493.lovable.app-1779992962914.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
