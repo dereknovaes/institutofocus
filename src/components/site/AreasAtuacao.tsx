@@ -1,4 +1,4 @@
-import { ArrowUpRight, GraduationCap, HeartHandshake, Briefcase, Trophy, Palette, Users } from "lucide-react";
+import { ArrowUpRight, GraduationCap, HeartHandshake, Briefcase, Trophy, HeartPulse, Users } from "lucide-react";
 import { Reveal } from "./Reveal";
 import educacao from "@/assets/area-educacao.jpg";
 import social from "@/assets/area-social.jpg";
@@ -12,7 +12,7 @@ const areas = [
   { icon: HeartHandshake, title: "Assistência Social", img: social, desc: "Acolhimento, apoio às famílias e ações que garantem dignidade e direitos básicos." },
   { icon: Briefcase, title: "Capacitação Profissional", img: capacitacao, desc: "Cursos técnicos e qualificação que abrem portas para o mercado de trabalho." },
   { icon: Trophy, title: "Esportes", img: esportes, desc: "Esporte como ferramenta de disciplina, saúde e inclusão para crianças e jovens." },
-  { icon: Palette, title: "Cultura", img: cultura, desc: "Arte, música e expressão cultural que valorizam identidades e talentos locais." },
+  { icon: HeartPulse, title: "Saúde", img: cultura, desc: "Atenção primária, prevenção, campanhas de vacinação e cuidado integral com a saúde da comunidade." },
   { icon: Users, title: "Desenvolvimento Comunitário", img: comunidade, desc: "Mobilização e fortalecimento de comunidades por meio do protagonismo coletivo." },
 ];
 
