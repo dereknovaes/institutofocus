@@ -101,7 +101,7 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="container-page flex flex-col items-center justify-between gap-3 py-6 text-sm text-ink-muted sm:flex-row">
-          <p>© {new Date().getFullYear()} Instituto FOCUS. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Instituto FOCUS. Todos os direitos reservados. CNPJ 10.263.839/0001-76</p>
           <p>Educação · Inclusão · Transformação Social</p>
         </div>
       </div>
