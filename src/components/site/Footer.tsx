@@ -50,6 +50,7 @@ export function Footer() {
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-ink-muted">
             Instituto FOCUS é uma organização sem fins lucrativos dedicada à
             educação, capacitação e inclusão social para a transformação de comunidades.
+            <span className="mt-2 block text-brand font-medium">Instituição desde 2008.</span>
           </p>
           <div className="mt-6 flex gap-3">
             {socials.map((s) => (
