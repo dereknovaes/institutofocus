@@ -1,8 +1,8 @@
 import { motion } from "motion/react";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroMain from "@/assets/hero-main.jpg";
-import hero2 from "@/assets/hero-2.jpg";
 import hero3 from "@/assets/hero-3.jpg";
+import focusLogo from "@/assets/focus-logo.svg";
 
 const stats = [
   { value: "+12 mil", label: "Vidas impactadas" },
