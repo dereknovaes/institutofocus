@@ -7,7 +7,7 @@ import hero3 from "@/assets/hero-3.jpg";
 const stats = [
   { value: "+12 mil", label: "Vidas impactadas" },
   { value: "+85", label: "Projetos realizados" },
-  { value: "15 anos", label: "De atuação social" },
+  { value: "18 anos", label: "De atuação social" },
   { value: "+40", label: "Parcerias ativas" },
 ];
 
