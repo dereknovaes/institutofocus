@@ -1,4 +1,4 @@
-import { ArrowUpRight, GraduationCap, HeartHandshake, Briefcase, Trophy, Palette, Users } from "lucide-react";
+import { ArrowUpRight, GraduationCap, HeartHandshake, Briefcase, Trophy, HeartPulse, Users } from "lucide-react";
 import { Reveal } from "./Reveal";
 import educacao from "@/assets/area-educacao.jpg";
 import social from "@/assets/area-social.jpg";
