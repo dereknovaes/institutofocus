@@ -103,14 +103,12 @@ export function Hero() {
               </div>
             </div>
             <div className="mt-10 space-y-4">
-              <div className="overflow-hidden rounded-3xl shadow-soft">
+              <div className="flex h-56 items-center justify-center overflow-hidden rounded-3xl bg-brand shadow-soft">
                 <img
-                  src={hero2}
-                  alt="Professora ensinando crianças"
+                  src={focusLogo}
+                  alt="Logo do Instituto FOCUS"
                   loading="lazy"
-                  width={768}
-                  height={768}
-                  className="h-56 w-full object-cover"
+                  className="h-40 w-40 object-contain"
                 />
               </div>
               <div className="rounded-3xl bg-ink p-6 text-ink-foreground shadow-lift">
