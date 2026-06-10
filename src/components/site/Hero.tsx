@@ -103,7 +103,7 @@ export function Hero() {
               </div>
             </div>
             <div className="mt-10 space-y-4">
-              <div className="flex h-56 items-center justify-center overflow-hidden rounded-3xl bg-brand shadow-soft">
+              <div className="flex h-56 items-center justify-center overflow-hidden rounded-3xl bg-white shadow-soft">
                 <img
                   src={focusLogo}
                   alt="Logo do Instituto FOCUS"
