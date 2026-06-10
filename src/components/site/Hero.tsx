@@ -114,16 +114,16 @@ export function Hero() {
                 />
               </div>
               <div className="rounded-3xl bg-ink p-6 text-ink-foreground shadow-lift">
-                <p className="text-3xl font-extrabold text-brand">98%</p>
+                <p className="text-3xl font-extrabold text-brand">100%</p>
                 <p className="mt-1 text-sm text-ink-muted">
                   dos participantes recomendam nossos programas
                 </p>
               </div>
             </div>
           </div>
-        <div className="pointer-events-none absolute -left-5 top-1/2 hidden h-16 w-16 rounded-2xl border-4 border-brand/40 sm:block" />
-      </motion.div>
-    </div>
+          <div className="pointer-events-none absolute -left-5 top-1/2 hidden h-16 w-16 rounded-2xl border-4 border-brand/40 sm:block" />
+        </motion.div>
+      </div>
   </section>
   );
 }
