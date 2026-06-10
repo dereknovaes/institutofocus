@@ -34,7 +34,7 @@ export function Footer() {
               </p>
             </div>
             <a
-              href="mailto:contato@institutofocus.org.br"
+              href="mailto:Institutofocus.ne@gmail.com"
               className="group inline-flex shrink-0 items-center gap-2 rounded-full bg-ink px-7 py-3.5 text-base font-semibold text-ink-foreground transition-all hover:-translate-y-0.5"
             >
               Fale Conosco
@@ -91,8 +91,8 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Mail className="h-4.5 w-4.5 shrink-0 text-brand" />
-              <a href="mailto:contato@institutofocus.org.br" className="hover:text-ink-foreground">
-                contato@institutofocus.org.br
+              <a href="mailto:Institutofocus.ne@gmail.com" className="hover:text-ink-foreground">
+                Institutofocus.ne@gmail.com
               </a>
             </li>
           </ul>
