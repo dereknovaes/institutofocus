@@ -121,21 +121,9 @@ export function Hero() {
               </div>
             </div>
           </div>
-          <div className="pointer-events-none absolute -left-5 top-1/2 hidden h-16 w-16 rounded-2xl border-4 border-brand/40 sm:block" />
-        </motion.div>
-      </div>
-
-      {/* stats bar */}
-      <div className="border-y border-border bg-secondary/50">
-        <div className="container-page grid grid-cols-2 gap-y-8 py-10 md:grid-cols-4">
-          {stats.map((s) => (
-            <div key={s.label} className="text-center">
-              <p className="text-3xl font-extrabold text-foreground sm:text-4xl">{s.value}</p>
-              <p className="mt-1 text-sm font-medium text-muted-foreground">{s.label}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+        <div className="pointer-events-none absolute -left-5 top-1/2 hidden h-16 w-16 rounded-2xl border-4 border-brand/40 sm:block" />
+      </motion.div>
+    </div>
+  </section>
   );
 }
