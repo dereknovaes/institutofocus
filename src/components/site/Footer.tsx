@@ -83,7 +83,7 @@ export function Footer() {
           <ul className="mt-5 space-y-4 text-sm text-ink-muted">
             <li className="flex items-start gap-3">
               <MapPin className="mt-0.5 h-4.5 w-4.5 shrink-0 text-brand" />
-              <span>Av. das Oportunidades, 1500 — Centro, São Paulo / SP</span>
+              <span>Rua Professor Guedes de Miranda, 161 — Farol, Maceió / AL</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="h-4.5 w-4.5 shrink-0 text-brand" />
