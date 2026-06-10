@@ -81,42 +81,42 @@ export function Hero() {
           className="relative"
         >
           <div className="grid grid-cols-2 gap-4">
-            <div className="space-y-4">
-              <div className="overflow-hidden rounded-3xl shadow-lift">
-                <img
-                  src={heroMain}
-                  alt="Estudantes em sala de aula do Instituto FOCUS"
-                  width={1024}
-                  height={1280}
-                  className="h-72 w-full object-cover sm:h-80"
-                />
-              </div>
-              <div className="overflow-hidden rounded-3xl shadow-soft">
-                <img
-                  src={hero3}
-                  alt="Comunidade em ação em projeto social"
-                  loading="lazy"
-                  width={768}
-                  height={512}
-                  className="h-40 w-full object-cover"
-                />
-              </div>
+            {/* Logo principal — maior e em destaque */}
+            <div className="col-span-2 flex items-center justify-center overflow-hidden rounded-3xl bg-white shadow-lift sm:col-span-1 sm:h-[22rem]">
+              <img
+                src={focusLogo}
+                alt="Logo do Instituto FOCUS"
+                loading="lazy"
+                className="h-56 w-56 object-contain sm:h-64 sm:w-64"
+              />
             </div>
-            <div className="mt-10 space-y-4">
-              <div className="flex h-56 items-center justify-center overflow-hidden rounded-3xl bg-white shadow-soft">
-                <img
-                  src={focusLogo}
-                  alt="Logo do Instituto FOCUS"
-                  loading="lazy"
-                  className="h-40 w-40 object-contain"
-                />
-              </div>
-              <div className="rounded-3xl bg-ink p-6 text-ink-foreground shadow-lift">
-                <p className="text-3xl font-extrabold text-brand">100%</p>
-                <p className="mt-1 text-sm text-ink-muted">
-                  dos participantes recomendam nossos programas
-                </p>
-              </div>
+
+            <div className="overflow-hidden rounded-3xl shadow-lift sm:h-[22rem]">
+              <img
+                src={heroMain}
+                alt="Estudantes em sala de aula do Instituto FOCUS"
+                width={1024}
+                height={1280}
+                className="h-full w-full object-cover"
+              />
+            </div>
+
+            <div className="overflow-hidden rounded-3xl shadow-soft">
+              <img
+                src={hero3}
+                alt="Comunidade em ação em projeto social"
+                loading="lazy"
+                width={768}
+                height={512}
+                className="h-40 w-full object-cover sm:h-44"
+              />
+            </div>
+
+            <div className="flex flex-col justify-center rounded-3xl bg-ink p-6 text-ink-foreground shadow-lift">
+              <p className="text-4xl font-extrabold text-brand">100%</p>
+              <p className="mt-1 text-sm text-ink-muted">
+                dos participantes recomendam nossos programas
+              </p>
             </div>
           </div>
           <div className="pointer-events-none absolute -left-5 top-1/2 hidden h-16 w-16 rounded-2xl border-4 border-brand/40 sm:block" />
