@@ -44,7 +44,7 @@ export function DestaqueInstitucional() {
             href="#contato"
             className="group mt-9 inline-flex items-center gap-2 rounded-full bg-brand px-7 py-3.5 text-base font-semibold text-brand-foreground shadow-brand transition-all hover:-translate-y-0.5"
           >
-            Apoie nossa causa
+            Seja voluntário
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
           </a>
         </Reveal>
