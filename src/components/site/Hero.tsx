@@ -119,7 +119,7 @@ export function Hero() {
               </p>
             </div>
           </div>
-          <div className="pointer-events-none absolute -left-5 top-1/2 hidden h-16 w-16 rounded-2xl border-4 border-brand/40 sm:block" />
+          
         </motion.div>
       </div>
   </section>
