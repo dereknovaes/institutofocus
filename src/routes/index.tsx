@@ -51,7 +51,6 @@ function Index() {
         <AreasAtuacao />
         <DestaqueInstitucional />
         <ProjetosTreinamentos />
-        <Noticias />
       </main>
       <Footer />
     </div>
