@@ -50,7 +50,7 @@ export function Noticias() {
           </p>
         </Reveal>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2">
+        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {noticias.map((n, i) => (
             <Reveal key={n.titulo} delay={i * 0.08}>
               <article className="group flex h-full flex-col overflow-hidden rounded-3xl border border-border bg-card shadow-soft transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lift">
