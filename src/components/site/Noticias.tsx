@@ -3,8 +3,18 @@ import { Reveal } from "./Reveal";
 
 const NOTICIA_PRIMEIROS_SOCORROS = "/__l5e/assets-v1/ce7ed758-4f7d-4bb1-9ad9-d9fb214fa487/noticia-primeiros-socorros.png";
 const NOTICIA_LINKEDIN = "/__l5e/assets-v1/0f41ec13-35f0-427b-a9a9-7f914e7e0cf8/noticia-linkedin.jpg";
+const NOTICIA_MASSAGUEIRA = "/__l5e/assets-v1/7c4611b5-7faa-4e87-8f49-54ad645c242c/noticia-massagueira.jpg";
 
 const noticias = [
+  {
+    img: NOTICIA_MASSAGUEIRA,
+    data: "27 Jun 2026",
+    titulo: "O Poder do Conhecimento que Salva Vidas: Instituto FOCUS Capacita a Comunidade da Massagueira em Primeiros Socorros",
+    resumo:
+      "Ao longo de junho, o Instituto FOCUS levou para a comunidade da Massagueira, em Marechal Deodoro/AL, um curso gratuito de Primeiros Socorros. Conduzido pela enfermeira e instrutora Adriana Cavalcante, o treinamento preparou moradores para agir com calma e precisão em emergências — formando uma rede de multiplicadores do cuidado e reforçando o compromisso do Instituto com o bem-estar comunitário.",
+    fonte: "Marechal Notícias",
+    link: "https://www.marechalnoticias.com.br/colunas/ricardo-coelho/o-poder-do-conhecimento-que-salva-vidas/",
+  },
   {
     img: NOTICIA_PRIMEIROS_SOCORROS,
     data: "25 Jun 2026",
@@ -24,6 +34,7 @@ const noticias = [
     link: "https://www.marechalnoticias.com.br/sem-categoria/o-instituto-de-desenvolvimento-sustentavel-educacional-ambiental-e-social-instituto-focus-traz-para-a-comunidade-o-curso/",
   },
 ];
+
 
 export function Noticias() {
   return (
